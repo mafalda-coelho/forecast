@@ -29,12 +29,12 @@
         <div class="weather-app-data">
           <div>
             <h2 class="weather-app-city" id="weather-app-city"></h2>
-            <p class="weather-app-details">
+            <div class="weather-app-details">
               <span id="time"></span><span id="description"></span>
               <br />
               Humidity: <strong id="humidity"></strong> Wind:
               <strong id="wind"></strong>
-            </p>
+            </div>
           </div>
           <div class="weather-app-temperature-container">
             <div id="icon"></div>
@@ -44,7 +44,24 @@
             <div class="weather-app-unit">°C</div>
           </div>
         </div>
+        <div class="weather-forecast">
+          <div class="row">
+            <div class="col-2">
+              <div class="weather-forecast-date">Tues</div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt=""
+                width="36"
+              />
+              <div class="weather-forecast-temperature">
+                <span class="weather-forecast-max">18°</span>
+                <span class="weather-forecast-temperature-min">12°</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+
       <footer>
         Coded by
         <a href="https://github.com/mafalda-coelho" target="_blank"
